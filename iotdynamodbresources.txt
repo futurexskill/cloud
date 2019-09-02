@@ -1,0 +1,29 @@
+MyIOTButton
+
+
+iotbutton/SL123456
+{
+    "serialNumber": "SL123456",
+    "clickType": "SINGLE",
+    "batteryVoltage": "1000 mV"
+}
+
+iotbutton/SL123456 
+{
+    "serialNumber": "SL123456",
+    "clickType": "SINGLE",
+    "batteryVoltage": "500 mV"
+}
+
+iotbutton/SL123456 
+{
+    "serialNumber": "SL123456",
+    "clickType": "SINGLE",
+    "batteryVoltage": "800 mV"
+}
+
+
+serialNumber String
+
+select * from 'iotbutton/SL123456'
+

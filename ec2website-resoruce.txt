@@ -1,0 +1,32 @@
+sudo su
+yum update -y
+#Install Apache
+yum install httpd -y
+cd /var/www/html
+
+# Create an index.html file with the following content
+<html>
+<head>
+<Title> </Title>
+</head>
+<body>
+<h1>Hello CloudNext.Guru</h1>
+<h2>This is your first website on AWS EC2. Have a great day</h2>
+</body>
+</html>
+
+# Similarly create an error.html
+
+#start Apache
+Sudo su
+service httpd start
+#check status
+service httpd status
+# for restarting apache at reboot
+chkconfig httpd on
+
+#For Mac and Linux users
+chmod 400 mykeypair.pem
+ssh -i mykeypair.pem public ip
+
+# Windows users can download putty softwares from putty.org

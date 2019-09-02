@@ -1,0 +1,3 @@
+{
+"productno": "$input.params('product')"
+}

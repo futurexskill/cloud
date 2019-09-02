@@ -1,0 +1,20 @@
+https://aws.amazon.com/athena/
+https://aws.amazon.com/glue/
+https://aws.amazon.com/s3/
+https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/
+
+raw-purchase-data
+
+
+transformed-purchase-data
+
+purchasedata
+
+raw-data-crawler
+
+transformed-data-crawler
+
+
+transf = Filter.apply(frame = datasource0, f = lambda x: x["age"] >= 18 , transformation_ctx = "transf")
+
+
